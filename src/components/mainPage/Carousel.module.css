@@ -1,0 +1,48 @@
+.App{
+
+}
+.container{
+
+}
+
+.buttonNeon {
+    padding-top: 450px;
+    padding-left: 550px;
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: darkblue;
+    border-bottom: 1px solid blue;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+a:hover {
+    border: none;
+    color: rgb( 202, 51, 150 );
+    background: #ca33ff;
+    box-shadow: 0 0 10px  #ca33ff, 0 0 40px  #ca33ff, 0 0 80px  #ca33ff;
+}
+
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 2px;
+    background: linear-gradient(180deg, transparent, #ede811);
+}
+
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
