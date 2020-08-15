@@ -1,7 +1,4 @@
-.App{
-
-}
-.container{
+.container {
 
 }
 
@@ -12,7 +9,8 @@
     align-items: center;
     font-family: consolas;
 }
-a {
+
+.neonLink {
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -26,14 +24,14 @@ a {
     transition: 0.2s;
 }
 
-a:hover {
+.neonLink:hover {
     border: none;
-    color: rgb( 202, 51, 150 );
+    color: rgb(202, 51, 150);
     background: #ca33ff;
-    box-shadow: 0 0 10px  #ca33ff, 0 0 40px  #ca33ff, 0 0 80px  #ca33ff;
+    box-shadow: 0 0 10px #ca33ff, 0 0 40px #ca33ff, 0 0 80px #ca33ff;
 }
 
-a span:nth-child(2) {
+.neonLink span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -41,7 +39,7 @@ a span:nth-child(2) {
     background: linear-gradient(180deg, transparent, #ede811);
 }
 
-a:hover span:nth-child(2) {
+.neonLink:hover span:nth-child(2) {
     top: 100%;
     transition: 1s;
     transition-delay: 0.25s;

@@ -13,8 +13,16 @@ ul{
 
 ul li{
     list-style: none;
+    text-decoration: none;
 }
 
 li{
     padding: 20px;
+}
+li a{
+    color: lightpink;
+    text-decoration: none;
+}
+li a.active{
+    border-bottom: 2px solid lightpink;
 }
