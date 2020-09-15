@@ -4,6 +4,7 @@ import './fonts/fonts.css'
 import Header from './components/Header/Header'
 import Footer from "./components/Footer/Footer";
 import MainPage from "./components/Page/MainPage/MainPage";
+import CatalogPage from "./components/Page/CatalogPage/CatalogPage";
 import MapPage from "./components/Page/MapPage/MapPage";
 import {BrowserRouter, Route} from "react-router-dom";
 
@@ -15,6 +16,7 @@ const App = () => {
                 <Header/>
                 <div className="wrapper-content">
                     <Route path='/MainPage' component={MainPage}/>
+                    <Route path='/CatalogPage' component={CatalogPage}  />
                     <Route path='/MapPage' component={MapPage}/>
                 </div>
                 <Footer/>

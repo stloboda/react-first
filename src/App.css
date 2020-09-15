@@ -8,8 +8,9 @@ body {
     grid-row-gap: 20px;
     height: 100vh;
     margin: 0;
-    background-image: url("./img/abstract-2560x1440-21830.jpg");
-    font-family: 'Dosis', sans-serif;
+    /*background-image: url("./img/abstract-2560x1440-21830.jpg");*/
+    background-color:  #e6efe7 ;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 

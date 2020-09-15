@@ -5,21 +5,41 @@ import {NavLink} from "react-router-dom";
 
 
 const Header = () => {
-    return <header className={classes.header}>
-        <ul>
-            <li>
-                <NavLink to="/MainPage" activeClassName={classes.active}>Home</NavLink>
-            </li>
-            <li>
-                <NavLink to="/AboutPage" activeClassName={classes.active}>About</NavLink>
-            </li>
-            <li>
-                <NavLink to="/CatalogPage" activeClassName={classes.active}>Catalog</NavLink>
-            </li>
-            <li>
-                <NavLink to="/MapPage" activeClassName={classes.active}>Maps</NavLink>
-            </li>
-        </ul>
-    </header>
+    return (
+        <div className={classes.wrapper}>
+            <div className={classes.topBox}>
+                <p>
+                    terve038@gmail.com
+                </p>
+            </div>
+            <header className={classes.header}>
+                <div className={classes.navLinks}>
+                    <strong>
+                        <ul>
+                            <li>
+                                <NavLink to="/MainPage" activeClassName={classes.active}> HOME </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/AboutPage"
+                                         activeClassName={classes.active}> ABOUT </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/CatalogPage"
+                                         activeClassName={classes.active}> CATALOG </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/MapPage"
+                                         activeClassName={classes.active}>MAPS </NavLink>
+                            </li>
+                        </ul>
+                    </strong>
+                </div>
+                <div className={classes.logo}>
+                    <img className={classes.imgLogo}
+                         src="https://dcassetcdn.com/design_img/3490880/152860/152860_19137850_3490880_bbd71693_image.jpg" alt=""/>
+                </div>
+            </header>
+        </div>
+    )
 }
 export default Header

@@ -2,8 +2,41 @@
 
 }
 
+.firtsText{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.firtsText h1{
+    color:  #0e294a;
+    font-size: 80px;
+}
+
+.linkCatalog{
+    margin-left: 44%;
+    text-decoration: none;
+}
+NavLink{
+    text-decoration: none;
+}
+
+.firstHr{
+    margin-top: 15%;
+   padding-top: 5%;
+    background-color: #081a30;
+}
+.wallpaper{
+    margin-top: 10%;
+    margin-left: 18%;
+}
+
+.secondHr{
+    margin-top: 5%;
+    width: 60%;
+}
+
 .buttonNeon {
-    padding-top: 450px;
+    padding-top: 200px;
     padding-left: 550px;
     justify-content: center;
     align-items: center;
