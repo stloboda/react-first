@@ -1,0 +1,48 @@
+.mainText{
+    font-size: 50px;
+    color: #0e294a;
+    margin-top: 10%;
+    margin-left: 39%;
+}
+.firstHr{
+    width: 80%;
+}
+.aboutText{
+    text-align: center;
+    width: 50%;
+    margin-left: 24%;
+    margin-top: 5%;
+    font-size: 18px;
+    color:  #495e78;
+}
+
+.contactText{
+    margin-top: 10%;
+    margin-left: 15%;
+    color: #0e294a;
+    font-size: 25px;
+}
+.map iframe{
+    width: 30%;
+    height: 300px;
+    frameBorder: 0;
+    border: 0;
+    aria-hidden: false;
+    tabIndex: 0;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
+.addressText{
+    margin-top: -29.5%;
+    margin-left: 60%;
+    color: #0e294a;
+    font-size: 25px;
+}
+
+.addressAbout{
+    margin-top: 4%;
+    margin-left: 60%;
+    font-size: 19px;
+    color: #495e78;
+}

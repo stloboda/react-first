@@ -9,7 +9,7 @@ const Header = () => {
         <div className={classes.wrapper}>
             <div className={classes.topBox}>
                 <p>
-                    terve038@gmail.com
+                    (099)3274546 &#124; terve038@gmail.com
                 </p>
             </div>
             <header className={classes.header}>

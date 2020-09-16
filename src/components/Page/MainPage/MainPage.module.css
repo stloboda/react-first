@@ -2,78 +2,95 @@
 
 }
 
-.firtsText{
+.firtsText {
+    text-align: center;
     margin-top: 10%;
-    margin-left: 5%;
+    position: absolute;
 }
 
-.firtsText h1{
-    color:  #0e294a;
+.firtsText h1 {
+    color: white;
+    margin-top: -3%;
     font-size: 80px;
 }
 
-.linkCatalog{
+.backImg img {
+    /*margin-left: 1%;*/
+    width: 100%;
+
+}
+
+.linkCatalog {
+    margin-top: 5%;
     margin-left: 44%;
     text-decoration: none;
 }
-NavLink{
-    text-decoration: none;
-}
 
-.firstHr{
-    margin-top: 15%;
-   padding-top: 5%;
+
+.firstHr {
+    margin-top: 10%;
+    padding-top: 5%;
     background-color: #081a30;
 }
-.wallpaper{
+
+.wallpaper {
     margin-top: 10%;
     margin-left: 18%;
 }
 
-.secondHr{
+.secondHr {
     margin-top: 5%;
     width: 60%;
 }
 
-.buttonNeon {
-    padding-top: 200px;
-    padding-left: 550px;
-    justify-content: center;
-    align-items: center;
-    font-family: consolas;
+.textMain {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    color: #495e78;
+    font-size: 18px;
 }
 
-.neonLink {
-    position: relative;
-    display: inline-block;
-    padding: 15px 30px;
-    color: darkblue;
-    border-bottom: 1px solid blue;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-}
+/*.buttonNeon {*/
+/*    padding-top: 200px;*/
+/*    padding-left: 550px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-family: consolas;*/
+/*}*/
 
-.neonLink:hover {
-    border: none;
-    color: rgb(202, 51, 150);
-    background: #ca33ff;
-    box-shadow: 0 0 10px #ca33ff, 0 0 40px #ca33ff, 0 0 80px #ca33ff;
-}
+/*.neonLink {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    padding: 15px 30px;*/
+/*    color: darkblue;*/
+/*    border-bottom: 1px solid blue;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 4px;*/
+/*    text-decoration: none;*/
+/*    font-size: 24px;*/
+/*    overflow: hidden;*/
+/*    transition: 0.2s;*/
+/*}*/
 
-.neonLink span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 2px;
-    background: linear-gradient(180deg, transparent, #ede811);
-}
+/*.neonLink:hover {*/
+/*    border: none;*/
+/*    color: rgb(202, 51, 150);*/
+/*    background: #ca33ff;*/
+/*    box-shadow: 0 0 10px #ca33ff, 0 0 40px #ca33ff, 0 0 80px #ca33ff;*/
+/*}*/
 
-.neonLink:hover span:nth-child(2) {
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
+/*.neonLink span:nth-child(2) {*/
+/*    top: -100%;*/
+/*    right: 0;*/
+/*    width: 2px;*/
+/*    height: 2px;*/
+/*    background: linear-gradient(180deg, transparent, #ede811);*/
+/*}*/
+
+/*.neonLink:hover span:nth-child(2) {*/
+/*    top: 100%;*/
+/*    transition: 1s;*/
+/*    transition-delay: 0.25s;*/
+/*}*/

@@ -12,6 +12,7 @@
     margin-right: 2%;
 }
 
+
 .navLinks {
     width: 32%;
     margin-left: 65%;
@@ -74,10 +75,10 @@ li a {
 /*}*/
 
 li a:hover {
-    color: rgb(43, 206, 65);
+    color: rgb( 100, 113, 128 );
 }
 
 li a.active{
-    color: rgb(43, 206, 65);
-    border-bottom: 2px solid rgb(43, 206, 65);
+    color: rgb( 100, 113, 128 );
+    border-bottom: 2px solid rgb( 100, 113, 128 );
 }
